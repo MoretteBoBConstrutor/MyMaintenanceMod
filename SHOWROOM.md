@@ -20,7 +20,6 @@ Transform your DayZ server with professional-grade features:
 - **Level 1:** Maintains 10 containers + 15 structures (50m radius)
 - **Level 2:** Maintains 20 containers + 30 structures (75m radius) 
 - **Level 3:** Maintains 35 containers + 50 structures (100m radius)
-- **Level 4:** Maintains 50 containers + 75 structures (125m radius)
 - **Team Management:** Add other players as members
 - **Smart Interface:** Detailed status menu with statistics
 
