@@ -237,9 +237,8 @@ $profile:MaintenanceMod/
 
 ### 🎯 Tipos de Eventos Militares
 
-- **Contaminated Area** - Área contaminada
-- **Artillery Strike** - Bombardeio de artilharia
-- **Air Raid** - Ataque aéreo
+- **Police Checkpoint** - Checkpoint Policial
+- **Train Crash** - Trem Quebrados
 - **Military Checkpoint** - Checkpoint militar
 
 ---
