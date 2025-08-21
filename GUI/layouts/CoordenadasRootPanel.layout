@@ -1,0 +1,33 @@
+FrameWidgetClass CoordenadasRootPanel {
+ position 0.07404 0.64293
+ size 0.12005 0.03533
+ halign center
+ valign center
+ {
+  ImageWidgetClass CoordsBackgroundBorder {
+   color 0 0 0 1
+   position 0 -0.02039
+   size 1 1
+  }
+  ImageWidgetClass CoordsBackground {
+   color 0.1725 0.349 0 1
+   position 0.03141 0.17902
+   size 0.94146 0.61198
+  }
+  PanelWidgetClass CoordenadasPaddingPanel {
+   position 0.03141 0.17902
+   size 0.94146 0.61198
+   {
+    TextWidgetClass CoordenadasTextoWidget {
+     color 1 1 1 1
+     text "X: 0000 | Z: 0000"
+     font "gui/fonts/metron-bold"
+     "size to text h" 0
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+    }
+   }
+  }
+ }
+}

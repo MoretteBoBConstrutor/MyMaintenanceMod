@@ -1,0 +1,158 @@
+FrameWidgetClass HeliCrashMapMenu {
+ position 0.07508 -0.05298
+ size 0.8 0.8
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ scaled 1
+ {
+  ImageWidgetClass CrashMapBackgroundBorder {
+   color 0 0 0 1
+   position 0 0
+   size 1 1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+  }
+  ImageWidgetClass CrashMapBackground {
+   color 0.1725 0.349 0 1
+   position 0.01 0.01
+   size 0.98 0.98
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+  }
+  PanelWidgetClass CrashMapPaddingPanel {
+   position 0.01 0.01
+   size 0.98 0.98
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    TextWidgetClass CrashMapTitle {
+     ignorepointer 1
+     position 0.02 0.02
+     size 0.96 0.08
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "RASTREAMENTO DE EVENTOS"
+     font "gui/fonts/metron-bold"
+     "text color" 1 1 1 1
+     "text halign" center
+     "text valign" center
+    }
+    FrameWidgetClass CrashMapContainer {
+     position 0.02 0.12
+     size 0.96 0.75
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     {
+      ImageWidgetClass MapBackgroundBorder {
+       color 0 0 0 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+      }
+      ImageWidgetClass MapBackgroundInterior {
+       color 0.05 0.05 0.05 1
+       position 0.01 0.01
+       size 0.98 0.98
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+      }
+      MapWidgetClass CrashMapWidget {
+       position 0.02 0.02
+       size 0.96 0.96
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+      }
+     }
+    }
+    TextWidgetClass CrashMapInfo {
+     ignorepointer 1
+     position 0.02 0.92
+     size 0.65 0.06
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "SINAIS ATIVOS:"
+     font "gui/fonts/metron-bold"
+     "text color" 1 1 1 1
+     "text halign" left
+     "text valign" center
+    }
+    TextWidgetClass CrashMapCounter {
+     ignorepointer 1
+     position 0.67 0.92
+     size 0.08 0.06
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     text "0"
+     font "gui/fonts/metron-bold"
+     "text color" 1 1 0 1
+     "text halign" center
+     "text valign" center
+    }
+    FrameWidgetClass CloseButtonContainer {
+     position 0.85 0.91
+     size 0.13 0.08
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     {
+      ImageWidgetClass CloseButtonBorder {
+       color 0 0 0 1
+       position 0 0
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+      }
+      ImageWidgetClass CloseButtonBackground {
+       color 0.8 0.1 0.1 1
+       position 0.046 0.075
+       size 0.908 0.85
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+      }
+      ButtonWidgetClass CrashMapCloseButton {
+       position 0.07 0.13
+       size 0.86 0.76
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       text "FECHAR"
+       font "gui/fonts/metron-bold"
+       "text color" 1 1 1 1
+      }
+     }
+    }
+   }
+  }
+ }
+}

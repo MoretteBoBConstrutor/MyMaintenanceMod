@@ -1,0 +1,18 @@
+ambient[] = {10.0,10.0,10.0,1.0};
+diffuse[] = {10.0,10.0,10.0,1.0};
+forcedDiffuse[] = {10.0,10.0,10.0,0.0};
+emmisive[] = {3.0,3.0,3.0,1.0};
+specular[] = {0.0,0.0,0.0,0.0};
+specularPower = 0.0;
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
+class Stage1
+{
+	texture="dz\\data\\data\\default_co.paa";
+	texGenType=0;
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0,1,0,1)";
+	texGenType=0;
+};

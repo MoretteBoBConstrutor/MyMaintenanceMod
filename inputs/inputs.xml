@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UAToggleGPS" loc="Toggle GPS" visible="true" />
+            <input name="UAToggleCoords" loc="Toggle Coordinates" visible="true" />
+            <input name="UAToggleCrashMap" loc="Toggle Crash Map" visible="true" />
+        </actions>
+    </inputs>
+    <preset>
+		<input name="UAToggleGPS">
+            <btn name="kj">
+            </btn>
+        </input>
+        <input name="UAToggleCoords">
+            <btn name="kk">
+            </btn>
+        </input>
+        <input name="UAToggleCrashMap">
+            <btn name="kl">
+            </btn>
+        </input>
+    </preset>
+</modded_inputs>

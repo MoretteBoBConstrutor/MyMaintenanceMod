@@ -1,0 +1,237 @@
+FrameWidgetClass MainFrame {
+ position 463.79205 163.15202
+ size 1031 841
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ scaled 1
+ {
+  ImageWidgetClass MainBackground {
+   position -177.37701 -92.6134
+   size 1451 1073
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   imageTexture "{74C07683CFC5DAF1}MyMaintenanceMod/GUI/images/PC_Fundo.edds"
+   mode blend
+   "src alpha" 1
+   "clamp mode" clamp
+   "stretch mode" fit_w_center
+   "flip u" 0
+  }
+  TextWidgetClass TitleText {
+   position 215 130
+   size 650 67
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "Status da Unidade de Manutenção"
+   font "gui/fonts/metron-bolditalic28"
+   "text halign" center
+   "text valign" center
+  }
+  PanelWidgetClass InfoPanel {
+   position 177.022 201
+   size 347.978 417
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    ImageWidgetClass InfoPanelBackground {
+     color 0 0 0 0
+     position -0.9216 0
+     size 348.89999 417
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     "src alpha" 0
+     "clamp mode" invalid
+     filter 1
+    }
+    TextWidgetClass level_label {
+     position 18.1296 20.1168
+     size 171.11301 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Nível:"
+     font "gui/fonts/metron-bold"
+     "text valign" center
+    }
+    TextWidgetClass level_value_text {
+     position 189.14799 20.1168
+     size 152.545 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "..."
+     font "gui/fonts/metron-bold"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass status_label {
+     position 18.1296 74.1168
+     size 172.007 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Status:"
+     font "gui/fonts/metron-bold"
+     "text valign" center
+    }
+    TextWidgetClass status_value_text {
+     position 189.235 74.1168
+     size 153.341 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "..."
+     font "gui/fonts/metron-bold"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass autonomy_label {
+     position 18.1296 129
+     size 181.22101 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Autonomia:"
+     font "gui/fonts/metron-bold"
+     "text valign" center
+    }
+    TextWidgetClass autonomy_value_text {
+     position 225.45399 129
+     size 117.12199 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "..."
+     font "gui/fonts/metron-bold"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass construction_label {
+     position 19.0128 184
+     size 196.01399 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Construção:"
+     font "gui/fonts/metron-bold"
+     "text valign" center
+    }
+    TextWidgetClass construction_value_text {
+     position 226.73999 184
+     size 116.719 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "..."
+     font "gui/fonts/metron-bold"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass container_label {
+     position 18.1296 238
+     size 206.504 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Containers:"
+     font "gui/fonts/metron-bold"
+     "text valign" center
+    }
+    TextWidgetClass container_value_text {
+     position 228.93399 238
+     size 115.409 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "..."
+     font "gui/fonts/metron-bold"
+     "text halign" right
+     "text valign" center
+    }
+   }
+  }
+  PanelWidgetClass TeamPanel {
+   position 554 201
+   size 310 417
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    ImageWidgetClass TeamPanelBackground {
+     color 0 0 0 0
+     position 0 0
+     size 310 417
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+    }
+    TextWidgetClass owner_label {
+     position 15 21
+     size 279 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Dono: ..."
+     font "gui/fonts/metron-bold"
+    }
+    TextWidgetClass members_label {
+     position 15 75
+     size 279 42
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Membros:"
+     font "gui/fonts/metron-bold"
+    }
+    MultilineTextWidgetClass members_list_text {
+     position 15 117
+     size 279 280
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "TEXTE"
+     font "gui/fonts/metron-italic12"
+     "exact text" 1
+     "text valign" top
+    }
+   }
+  }
+  ButtonWidgetClass close_button {
+   position 299.51999 687.51202
+   size 147 41
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "Fechar"
+   font "gui/fonts/metron-bolditalic"
+  }
+ }
+}
